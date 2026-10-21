@@ -19,5 +19,18 @@ public class Zug
         return klimatisiert;
     }
     
+    public void setBezeichnung( String neuBezeichnung)
+    {
+        bezeichnung = neuBezeichnung;
+    }
     
+    public void setWagen( int neuWagen)
+    {
+        wagen = neuWagen;
+    }
+    
+    public void setKlimatisiert( boolean neuKlimatisiert)
+    {
+        klimatisiert = neuKlimatisiert;
+    }
 }
