@@ -38,6 +38,7 @@ public class Zug
         setWagen(1);
         setKlimatisiert(false);
     }
+    
     public String getBezeichnung()
     {
         return bezeichnung;
@@ -67,4 +68,19 @@ public class Zug
     {
         klimatisiert = neuKlimatisiert;
     }
+    
+    public void printZug()
+    {
+        if ( klimatisiert==true)
+        {
+            System.out.println("Zug : " + bezeichnung +"-" + wagen + " Wagen - klimatisiert");
+        }
+        else
+        {
+            System.out.println("Zug : " + bezeichnung +"-" + wagen + " Wagen - nicht klimatisiert");
+        }
+    }
+    
+    
+    
 }
