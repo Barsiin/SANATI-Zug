@@ -61,7 +61,17 @@ public class Zug
     
     public void setWagen( int neuWagen)
     {
-        wagen = neuWagen;
+        if (( neuWagen >=1) && ( neuWagen <= 30))
+        {
+            this.wagen = neuWagen;
+        }
+        else
+        {
+            System.out.println("Fehler :Die Anzahl der Wagen muss zwieschen 1 und 30 liegen!");
+        {
+           this.wagen=1;     
+        }
+        }
     }
     
     public void setKlimatisiert( boolean neuKlimatisiert)
