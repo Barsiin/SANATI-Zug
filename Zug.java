@@ -74,6 +74,7 @@ public class Zug
         }
     }
     
+
     public void setKlimatisiert( boolean neuKlimatisiert)
     {
         klimatisiert = neuKlimatisiert;
@@ -91,6 +92,19 @@ public class Zug
         }
     }
     
+    
+    /*@Test
+    public void test_printZug()
+    {
+     Zug railjet;
+     Zug regionalzug;
+     railjet = new Zug ( "Railjet",7,true);
+     railjet.printZug();
+     // Zug : Railjet - 7 Wagen - klimatisirt 
+     regionalzug = new Zug ( "Regionalzug",4,false);
+     regionalzug:printZug();
+     // Zug : Regionalzug - 4-nicht klimatisiert)
+    }*/
     
     
 }
